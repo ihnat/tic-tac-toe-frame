@@ -1,0 +1,40 @@
+
+.board {
+    display: flex;
+    flex-direction: column;
+    margin: -1px;
+    border: 1px solid gray;
+}
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    float: left;
+    background: white;
+    border: 1px dotted lightgray;
+    line-height: 2rem;
+    height: 6rem;
+    width: 6rem;
+    font-size: 4rem;
+    padding: 0;
+    text-align: center;
+}
+
+
+.square:hover {
+    background: grey;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
